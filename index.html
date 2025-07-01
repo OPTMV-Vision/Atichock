@@ -89,14 +89,14 @@
     document.getElementById('saveContactBtn').addEventListener('click', () => {
       const vCard = `BEGIN:VCARD
 VERSION:3.0
-N:Jirawattananukul;Chanon
-FN:Chanon Jirawattananukul
-TITLE:Overseas Technical Engineer
+N:Nantanasarn;Atichock
+FN:Atichock Nantanasarn
+TITLE:Thailand Sales Manager
 ORG:OPT Machine Vision
 TEL;TYPE=CELL:089-452-3340
-EMAIL:Chanon.j@optmv.com
+EMAIL:Atichock.n@optmv.com
 URL:https://www.optmv.net/
-PHOTO;TYPE=JPEG;VALUE=URL:FB_IMG_1750180448571.jpg
+PHOTO;TYPE=JPEG;VALUE=URL:S__43049070.jpg
 END:VCARD`;
       const blob = new Blob([vCard], { type: 'text/vcard' });
       const url = URL.createObjectURL(blob);
